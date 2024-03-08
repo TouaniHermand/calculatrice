@@ -1,0 +1,157 @@
+
+body{
+    background-color: rgba(95, 158, 169, 0.2) ;
+
+ }
+ 
+ form {
+     width: 300px;
+     height: 400px;
+     margin: 4em auto;
+ }
+ 
+ fieldset{
+     border-style:ridge;
+     border-width: 8px;
+     border-color: black;
+     background-color: black;
+     border-top-style: ridge;
+     border-top-width: 2em;
+     border-top-color: darkslategray ;
+     border-radius: 15px;
+     box-shadow: 7px 7px 7px black ;
+ }
+ 
+
+#name{
+    width: 260px;
+    height: 2em;
+    background-color: burlywood;
+    margin-bottom: 3em;
+    text-align: right;
+}
+
+.calc_button {
+    width: 21%;
+    margin-left: 0.4em;
+    border-radius: 50%;
+    padding: 0.7em 0.7em;
+    background-color: burlywood;
+    transition: all .3s ease-in-out;
+}
+
+
+.calc_button:hover{
+    box-shadow: 3px 3px 3px blue burlywood;
+}
+
+#btn_submit{
+    width: 21%;
+    margin-left: 0.4em;
+    border-radius: 50%;
+    padding: 0.7em 0.7em;
+}
+
+legend{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: bolder;
+    color: burlywood;
+    padding-bottom: 10px;
+}
+
+#AC{
+    color: brown;
+    font-weight: bolder;
+    text-shadow: 1px -1px 1px brown;
+}
+
+#para1,#para2,#para3,#para4,#para5,#para6,#para7{
+    color: green;
+    font-weight: bolder;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.div2{
+    float: right;
+}
+
+.div1{
+    margin-bottom: 2em;
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    background-color: red;
+    position: relative;
+    animation-name: chgt-couleur;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: normal; 
+    z-index: 1000;
+}
+
+@keyframes chgt-couleur{
+    0%{background-color: aqua; top: 0px; left: 0px;}
+    50%{background-color: gold; top: 0px; left: 230px;}
+    100%{background-color: green; top: 0px; left: 0px;}
+}
+
+
+/*.div2{
+    margin-bottom: 2em;
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    background-color: red;
+    position: relative;
+    animation-name: chgt;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: normal; 
+    z-index: 1000;
+}
+
+@keyframes chgt {
+    0%{background-color: aqua; top: 0px; right: 0px;}
+    25%{background-color: red; top: 0px; right: 500px;}
+    50%{background-color: yellow; top: 300px; right: 500px;}
+    75%{background-color: blue; top: 300px; right: 0px;}
+    100%{background-color: green; top: 0px; right: 0px;}
+}
+
+
+.div3{
+    margin-bottom: 2em;
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    background-color: red;
+    position: relative;
+    animation-name: chgt3;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: normal; 
+    z-index: 1000;
+}
+
+@keyframes chgt3 {
+    0%{background-color: aqua; top: 0px; left: 0px;}
+    25%{background-color: red; top: 300px; left: 0px;}
+    50%{background-color: yellow; top: 300px; left: 500px;}
+    75%{background-color: blue; top: 0px; left: 500px;}
+    100%{background-color: green; top: 0px; left: 0px;}
+}
+
+*/
